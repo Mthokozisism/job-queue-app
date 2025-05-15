@@ -1,0 +1,13 @@
+{
+    "name": "job-queue",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+      "build": "tsc",
+      "test": "node dist/tests/jobQueue.test.js"
+    },
+    "devDependencies": {
+      "@types/node": "^22.15.18",
+      "typescript": "^5.0.0"
+    }
+}
